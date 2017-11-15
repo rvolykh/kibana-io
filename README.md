@@ -6,11 +6,14 @@ Python script to Export/Import Kibana dashboards/visualization/searches/index-pa
 	python kibana_io.py import --dir ./dump --url http://localhost:9200
                 
 required arguments:
-+ export -  dump kibana resources
-+ import - upload dump to elasticsearch
+```
+export - dump kibana resources
+import - upload dump to elasticsearch
+```
 
 optional arguments:
+```
   -h, --help       show this help message and exit
   --url URL        Elasticsearch URL. E.g. http://localhost:9200.
   --dir DIR        Output/Input directory
-
+```
