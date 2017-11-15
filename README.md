@@ -1,6 +1,9 @@
 # kibana-io
 Python script to Export/Import Kibana dashboards/visualization/searches/index-patterns
 
+### Dependencies:
+`pip install requests`
+
 ### Usage: 
 	python kibana_io.py export --url http://localhost:9200 --dir ./dump
 	python kibana_io.py import --dir ./dump --url http://localhost:9200
